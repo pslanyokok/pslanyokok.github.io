@@ -768,7 +768,7 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/boly-960x720.jpg",
+                "image": "@PROJECT_PATH@/assets/images/torna-960x720.jpg",
                 "active": true,
                 "showButtons": true,
                 "showText": true,
