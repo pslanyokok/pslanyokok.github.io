@@ -32,15 +32,15 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 3,
+    "uniqCompNum": 12,
     "versionPublish": "4.8.10",
     "favicon": "",
     "noImageResize": "",
     "screenshot": "screenshot.png",
     "google-analytics": "",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
-    "robotsSwitcher": "on",
-    "siteUrl": "http://pslanyokok.github.io/sportoldalanyok.html",
+    "robotsSwitcher": "",
+    "siteUrl": "",
     "sitemapSwitcherAuto": "on",
     "sitemapSwitcher": "on"
   },
@@ -49,7 +49,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Stábtagok",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -585,7 +585,7 @@
       "settings": {
         "meta_descr": "Website Builder Description",
         "title": "Csapattagok",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -1365,7 +1365,7 @@
       "settings": {
         "meta_descr": "Site Maker Description",
         "title": "Mérkőzések,eredmények",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -1844,7 +1844,7 @@
       "settings": {
         "meta_descr": "Website Generator Description",
         "title": "Képek",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -2248,7 +2248,7 @@
       "settings": {
         "meta_descr": "Web Builder Description",
         "title": "Elérhetőségek",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -2703,7 +2703,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "NB1",
-        "order": 6
+        "order": 7
       },
       "components": [
         {
@@ -3247,7 +3247,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Teremtornak",
-        "order": 7
+        "order": 8
       },
       "components": [
         {
@@ -3848,7 +3848,7 @@
       "settings": {
         "meta_descr": "Web Site Builder Description",
         "title": "Edzőmeccsek",
-        "order": 8
+        "order": 9
       },
       "components": [
         {
