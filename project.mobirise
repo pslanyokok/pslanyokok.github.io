@@ -2178,20 +2178,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Ide írd a képfeliratot",
-                "active": false
-              },
-              {
-                "tags": "Reszponzív",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/siofok-960x640.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/siofok-960x640-800x533.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Ide írd a képfeliratot",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Reszponzív",
@@ -2217,7 +2204,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Ide írd a képfeliratot",
-                "active": true
+                "active": false
               }
             ]
           }
