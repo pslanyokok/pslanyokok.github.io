@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sportolda lanyokok",
-    "currentPage": "html.html",
+    "currentPage": "sportoldalanyok.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 12,
+    "uniqCompNum": 3,
     "versionPublish": "4.8.10",
     "favicon": "",
     "noImageResize": "",
@@ -4294,7 +4294,7 @@
         }
       ]
     },
-    "html.html": {
+    "sportoldalanyok.html": {
       "settings": {
         "main": true,
         "title": "Kezdőlap",
