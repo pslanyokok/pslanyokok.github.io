@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Sportolda lanyokok",
-    "currentPage": "sportoldalanyok.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -4294,7 +4294,7 @@
         }
       ]
     },
-    "sportoldalanyok.html": {
+    "index.html": {
       "settings": {
         "main": true,
         "title": "Kezdőlap",
