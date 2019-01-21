@@ -2888,6 +2888,14 @@ body {
   margin-top: 1rem;
   margin-bottom: 0;
 }
+.cid-rfPsSr5pPz {
+  padding-top: 45px;
+  padding-bottom: 15px;
+  background-image: url("../../../assets/images/mbr-1920x1059.jpg");
+}
+.cid-rfPsSr5pPz H2 {
+  text-align: left;
+}
 .cid-reSKmVXdp3 {
   padding-top: 15px;
   padding-bottom: 0px;
@@ -5398,6 +5406,9 @@ body {
 }
 .cid-rfpvb5aaxS .mbr-overlay ~ .container-slide {
   z-index: auto;
+}
+.cid-rfpvb5aaxS H2 {
+  color: #ffffff;
 }
 .cid-reSZCTIkKG {
   padding-top: 90px;
