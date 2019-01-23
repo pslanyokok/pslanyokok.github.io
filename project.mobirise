@@ -5034,6 +5034,23 @@
             "slides__showBullets": true,
             "slides": [
               {
+                "image": "@PROJECT_PATH@/assets/images/ez-1532x792.png",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "Öt játékosunk kapott meghívót Magyarország déli régió válogatottjának bővített keretébe!",
+                "overlay": true,
+                "contentAlign": "right",
+                "text": "Közel 100 lány közül 20 lesz az, aki képviselheti Telkiben Dél-Magyarországot!",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/pecsisportolda/posts/1995213350546791?__xts__[0]=68.ARCqiLwIbnDEKAs45MJ52lzlrwDWrZ4MQfPQYAL6WtEMkhNxSmFmZkPLrCejCsLbGSb17iwtRfYjHVi1AG9agoNggF5MU0iETuJzOjGwrPiO4m7SpIcsJlJp7LXiW8Hs5XtABcyd0E7_VE8_uigBEUIFN3P4tFldMubjkDRNw30HAaFOd3YgEku5mALvKoTB8D3NobGKECY_yLXhwi4OzNOP7jCCdj2Cpigc0DU4XdA0nLq1lZnO6Q3KNcS7dRRtLkwk54M-aXQ2OaHsh4EDhGK_gFGWO2vowZ9tq_74sJ7wxiSFyZE58gBO5iErKn9U4RwWSuIvy5taQipWb9xcN1CIEw&amp;__tn__=-R\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Tudj meg többet!</a> "
+              },
+              {
                 "image": "@PROJECT_PATH@/assets/images/eto-logo-1155x543.png",
                 "active": false,
                 "showButtons": true,
@@ -5083,23 +5100,6 @@
                 "contentAlign": "left",
                 "text": "",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"teremtornak.html\" data-toolbar=\"-mbrBtnMove\">Tudj meg többet!</a> "
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/ez-1532x792.png",
-                "active": true,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "Öt játékosunk kapott meghívót Magyarország déli régió válogatottjának bővített keretébe!",
-                "overlay": true,
-                "contentAlign": "right",
-                "text": "Közel 100 lány közül 20 lesz az, aki képviselheti Telkiben Dél-Magyarországot!",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/pecsisportolda/posts/1995213350546791?__xts__[0]=68.ARCqiLwIbnDEKAs45MJ52lzlrwDWrZ4MQfPQYAL6WtEMkhNxSmFmZkPLrCejCsLbGSb17iwtRfYjHVi1AG9agoNggF5MU0iETuJzOjGwrPiO4m7SpIcsJlJp7LXiW8Hs5XtABcyd0E7_VE8_uigBEUIFN3P4tFldMubjkDRNw30HAaFOd3YgEku5mALvKoTB8D3NobGKECY_yLXhwi4OzNOP7jCCdj2Cpigc0DU4XdA0nLq1lZnO6Q3KNcS7dRRtLkwk54M-aXQ2OaHsh4EDhGK_gFGWO2vowZ9tq_74sJ7wxiSFyZE58gBO5iErKn9U4RwWSuIvy5taQipWb9xcN1CIEw&amp;__tn__=-R\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Tudj meg többet!</a> "
               }
             ]
           }
