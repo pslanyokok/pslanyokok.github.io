@@ -4294,7 +4294,7 @@
             }
           },
           "_name": "content10",
-          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Szöveg szélessége\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Vonal szélessége\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"84\">\n        <input type=\"color\" title=\"Vonal színe\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Háttérszín\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><p></p><p></p><p><span style=\"font-size: 1.5rem;\">2019</span><span style=\"font-size: 1.5rem;\">&nbsp; &nbsp;&nbsp;</span><span style=\"font-size: 1.5rem;\">&nbsp; &nbsp; Győri ETO - Sportolda ???</span></p><p>&nbsp; 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MTK - Sportolda &nbsp;5-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Kaposvár - Sportolda &nbsp;6-5<br><br><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;Ferencváros - Sportolda &nbsp;15-9</p><p></p><p></p></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section article content10\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Szöveg szélessége\" name=\"innerWidth\" min=\"50\" max=\"100\" step=\"1\" value=\"66\">\n        <input type=\"range\" inline title=\"Vonal szélessége\" name=\"lineLength\" min=\"10\" max=\"100\" step=\"1\" value=\"84\">\n        <input type=\"color\" title=\"Vonal színe\" name=\"lineColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Háttérszín\" name=\"bgColor\" value=\"#2e2e2e\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"inner-container\" mbr-style=\"{'width': innerWidth + '%'}\">\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n            <div class=\"section-text align-center mbr-white mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".section-text\" mbr-text><p></p><p></p><p><span style=\"font-size: 1.5rem;\">2019</span><span style=\"font-size: 1.5rem;\">&nbsp; &nbsp;&nbsp;</span><span style=\"font-size: 1.5rem;\">&nbsp; &nbsp; Győri ETO - Sportolda 2-3</span></p><p>&nbsp; 2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MTK - Sportolda &nbsp;5-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>2018&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Kaposvár - Sportolda &nbsp;6-5<br><br><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;Ferencváros - Sportolda &nbsp;15-9</p><p></p><p></p></div>\n            <hr class=\"line\" mbr-style=\"{'width': lineLength + '%'}\">\n        </div>\n    </div>\n</section>",
           "_cid": "reY9bKx9MT",
           "_anchor": "content10-b",
           "_protectedParams": [],
@@ -5013,7 +5013,7 @@
               "text-align": "left"
             },
             "P": {
-              "text-align": "right"
+              "text-align": "left"
             }
           },
           "_name": "slider1",
@@ -5034,8 +5034,25 @@
             "slides__showBullets": true,
             "slides": [
               {
+                "image": "@PROJECT_PATH@/assets/images/gyor-960x539.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "Győzelem Győrben!",
+                "overlay": true,
+                "contentAlign": "right",
+                "text": "Fordulatos mérkőzésen sikerült megszereznünk a győzelmet Czakó Zoé, Bircsák Karina és Kőmíves Amira találataival!",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"edzomeccsek.html\" data-toolbar=\"-mbrBtnMove\">Tudj meg többet!</a> "
+              },
+              {
                 "image": "@PROJECT_PATH@/assets/images/ez-1532x792.png",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -5061,7 +5078,7 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "Edzőmérkőzést játszunk a Győri ETO ellen!",
+                "title": "A Győri ETO ellen játszunk felkészülési meccset!",
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "A bécsi teremtorna előtt út közben vár ránk egy edzőmérkőzés Győrben.",
@@ -5069,7 +5086,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/torna-960x720.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -5082,23 +5099,6 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "A bécsi nemzetközi teremtorna előtt egy saját rendezésű minitornával készültünk, amelyt sikeresen zártunk!",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"teremtornak.html\" data-toolbar=\"-mbrBtnMove\">Tudj meg többet!</a> "
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/misleny2-720x960.jpg",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-1",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "Meghívást kaptunk egy bécsi nemzetközi teremtornára!",
-                "overlay": true,
-                "contentAlign": "left",
-                "text": "",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"teremtornak.html\" data-toolbar=\"-mbrBtnMove\">Tudj meg többet!</a> "
               }
             ]
