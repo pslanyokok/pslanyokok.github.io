@@ -5071,8 +5071,8 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/gyozelem-960x720.jpg",
-                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/ggggg-960x640.jpg",
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -5088,8 +5088,8 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"teremtornak.html\" data-toolbar=\"-mbrBtnMove\">Tudj meg többet!</a> "
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/gyor-960x539.jpg",
-                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/gyorigyoz-960x699.jpg",
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
