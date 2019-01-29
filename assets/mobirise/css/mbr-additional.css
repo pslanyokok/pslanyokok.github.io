@@ -2958,10 +2958,28 @@ body {
   transition: 0.2s background ease-in-out;
   background: linear-gradient(to left, #554346, #45505b) !important;
 }
-.cid-reYcWmFdy3 {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #2e2e2e;
+.cid-rgxBRLHqLx {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #55b4d4;
+}
+.cid-rgxBRLHqLx [class^="socicon-"]:before,
+.cid-rgxBRLHqLx [class*=" socicon-"]:before {
+  line-height: 44px;
+}
+.cid-rgxBRLHqLx .btn-social {
+  border-color: #ff3366;
+}
+.cid-rgxBRLHqLx .btn-social:hover {
+  background: #ff3366;
+}
+.cid-rgxBRLHqLx .btn-social:hover i.socicon {
+  color: #ffffff !important;
+}
+@media (max-width: 767px) {
+  .cid-rgxBRLHqLx .btn {
+    font-size: 20px !important;
+  }
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
@@ -3849,6 +3867,29 @@ body {
   .cid-rf2HLrmrpf .card {
     -webkit-flex-basis: 33%;
     flex-basis: 33%;
+  }
+}
+.cid-rgxCaJGWu3 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #55b4d4;
+}
+.cid-rgxCaJGWu3 [class^="socicon-"]:before,
+.cid-rgxCaJGWu3 [class*=" socicon-"]:before {
+  line-height: 44px;
+}
+.cid-rgxCaJGWu3 .btn-social {
+  border-color: #ff3366;
+}
+.cid-rgxCaJGWu3 .btn-social:hover {
+  background: #ff3366;
+}
+.cid-rgxCaJGWu3 .btn-social:hover i.socicon {
+  color: #ffffff !important;
+}
+@media (max-width: 767px) {
+  .cid-rgxCaJGWu3 .btn {
+    font-size: 20px !important;
   }
 }
 .cid-rf7uMaOj2e {
