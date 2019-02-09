@@ -1961,6 +1961,149 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/selye10-960x944.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/selye10-960x944-800x787.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sellye1-960x542.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sellye1-960x542-800x452.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sellye2-960x640.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sellye2-960x640-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sellye3-960x832.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sellye3-960x832-800x693.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sellye4-960x640.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sellye4-960x640-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sellye5-960x640.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sellye5-960x640-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sellye6-960x593.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sellye6-960x593-800x494.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sellye7-960x703.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sellye7-960x703-800x586.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sellye8-960x863.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sellye8-960x863-800x719.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sellye9-960x640.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sellye9-960x640-800x533.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/sellye11-850x960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/sellye11-850x960-800x904.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/audi-960x640.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/audi-960x640-800x533.jpg",
                 "alt": "",
@@ -2110,7 +2253,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Ide írd a képfeliratot",
-                "active": true
+                "active": false
               },
               {
                 "tags": "Reszponzív",
@@ -2448,7 +2591,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Ide írd a képfeliratot",
-                "active": false
+                "active": true
               }
             ]
           }
@@ -5346,7 +5489,7 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/futsal-960x539.jpg",
+                "image": "@PROJECT_PATH@/assets/images/ezafutsal-960x678.jpg",
                 "active": true,
                 "showButtons": true,
                 "showText": true,
