@@ -5499,11 +5499,11 @@
                 "customStyle1": "display-1",
                 "customStyle2": "display-5",
                 "customStyle3": "display-4",
-                "title": "U14 Futsal 1.forduló",
+                "title": "U14 Futsal 2.forduló",
                 "overlay": true,
                 "contentAlign": "left",
-                "text": "Sportolda-PMFC 4-0, Sportolda-Sellye 5-0",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://adatbank.mlsz.hu/league/49/2/20259/1.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Tudj meg többet!</a> "
+                "text": "Most is megnyertük minden mérkőzésünket!",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-success display-4\" data-app-placeholder=\"Type Text\" href=\"https://adatbank.mlsz.hu/league/49/2/20259/2.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Tudj meg többet!</a> "
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/ggggg-960x640.jpg",
