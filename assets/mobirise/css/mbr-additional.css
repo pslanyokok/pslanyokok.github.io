@@ -5713,6 +5713,26 @@ body {
     justify-content: center;
   }
 }
+.cid-rhWNnUFa9R {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background: linear-gradient(45deg, #f4a997, #a09fc0);
+}
+@media (min-width: 992px) {
+  .cid-rhWNnUFa9R .mbr-figure {
+    padding-left: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rhWNnUFa9R .mbr-figure {
+    padding-top: 3rem;
+  }
+}
+.cid-rhWNnUFa9R .mbr-text,
+.cid-rhWNnUFa9R .mbr-section-btn {
+  color: #149dcc;
+  text-align: left;
+}
 .cid-reXTQQnzm4 .navbar {
   padding: .5rem 0;
   background: #333333;
