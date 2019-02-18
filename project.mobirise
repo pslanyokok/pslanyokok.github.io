@@ -32,7 +32,7 @@
     "path": "@PROJECT_PATH@",
     "siteFonts": [],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 4,
+    "uniqCompNum": 5,
     "versionPublish": "4.8.10",
     "favicon": "",
     "noImageResize": "",
@@ -1961,6 +1961,71 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/racalmas2-960x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/racalmas2-960x720-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/racalmas4-960x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/racalmas4-960x720-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/racalmas3-960x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/racalmas3-960x720-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/racalmas5-720x960.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/racalmas5-720x960-720x960.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": true
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/racalmas1-960x720.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/racalmas1-960x720-800x600.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Ide írd a képfeliratot",
+                "active": false
+              },
+              {
+                "tags": "Reszponzív",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
                 "image": "@PROJECT_PATH@/assets/images/selye10-960x944.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/selye10-960x944-800x787.jpg",
                 "alt": "",
@@ -2591,7 +2656,7 @@
                 "title": "",
                 "customStyle1": "display-7",
                 "caption": "Ide írd a képfeliratot",
-                "active": true
+                "active": false
               }
             ]
           }
@@ -3716,6 +3781,52 @@
               "font-weight": "300"
             },
             ".mbr-content-text": {
+              "color": "#ff3366",
+              "text-align": "center"
+            },
+            ".panel-item": {
+              "background": "#ffffff"
+            },
+            ".card": {
+              "word-wrap": "break-word"
+            },
+            ".mbr-iconfont": {
+              "font-size": "80px",
+              "color": "#149dcc"
+            },
+            "H3": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "counters1",
+          "_customHTML": "<section class=\"counters1 counters\" group=\"Counters\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Cím\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Alcím\" name=\"showSubtitle\">\n\n        <input type=\"checkbox\" title=\"Blokk címe\" name=\"showTitles\" checked>\n        <input type=\"checkbox\" title=\"Szöveg\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Ikonok\" name=\"showIcons\">\n\n        <select title=\"Kártyák száma\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\" selected>3</option>\n           <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Háttérkép\" value=\"@PROJECT_PATH@/assets/images/02.jpg\">\n            <input type=\"color\" title=\"Háttérszín\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Háttérvideó\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Fedés\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Fedőszín\" name=\"overlayColor\" value=\"#b2ccd2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Átlátszóság\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><p>\n            Rácalmási NB1-es teremtorna 2019.02.17.</p></h2>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            A Mobirise egy gyönyörű webszerkesztő\n        </h3>\n\n        <div class=\"container pt-4 mt-2\">\n            <div class=\"media-container-row\">\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-mobirise mbr-iconfont\"></span>\n                        </div>\n\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  100\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                Résztvevő csapatok</h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">\n                                MTK Budapest&nbsp;<br>Pécsi Sportolda<br>Vasas<br>Dunaújváros<br>Puskás Akadémia<br>MOL Vidi FC</p>\n                        </div>\n                    </div>\n                </div>\n\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>1\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-touch-swipe mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  200\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                Mérkőzések eredményei</h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">\n                                    Sportolda - MOL Vidi FC 3-0<br>gsz.: Bircsák Karina,Czakó Zoé,Keibl Luca<br><br>MTK - Sportolda 0-3<br>gsz.:Bircsák Karina,Czakó Zoé, Gyimesi Cecilía<br><br>Sportolda - Dunaújváros 0-0<br><br>Sportolda - Vasas 3-0<br>gsz.:Bircsák Karina,Kömíves Amira,Krisztián Petra<br><br>Puskás Akadémia - Sportolda 0-0</p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>2\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-responsive mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  300\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                Helyezések</h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\"><p>\n                                    1. Puskás Akadémia&nbsp; &nbsp; 13p<br>2. Pécsi Sportolda&nbsp; &nbsp; &nbsp; &nbsp;11p<br>3. MOL Vidi FC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;7p<br>4. Vasas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; 4p<br>&nbsp;5. MTK Budapest&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;3p<br>6. Dunaújváros&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; 2p</p></p>\n                        </div>\n                    </div>\n                </div>\n\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>3\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-hot-cup mbr-iconfont\"></span>\n                        </div>\n\n                        <div class=\"card-texts\">\n                             <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  400\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">\n                                Webes betűkészletek\n                            </h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">\n                                    A Google a betűkészletek rendkívül széles kínálatát építette be web font platformjába, melyet a Mobirise segítségével könnyen és ingyen használhatsz weboldalaidon.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n   </div>\n</section>",
+          "_anchor": "counters1-4",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "ripJh2sEXS",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "h3": {
+              "text-align": "center"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676",
+              "font-weight": "300"
+            },
+            ".mbr-content-text": {
               "color": "#ff3366"
             },
             ".panel-item": {
@@ -3730,6 +3841,9 @@
             },
             "H3": {
               "color": "#ffffff"
+            },
+            "P": {
+              "color": "#ff3366"
             }
           },
           "_name": "counters1",
@@ -3776,10 +3890,13 @@
             },
             ".mbr-content-text P": {
               "color": "#ff3366"
+            },
+            "P": {
+              "color": "#ff3366"
             }
           },
           "_name": "counters1",
-          "_customHTML": "<section class=\"counters1 counters\" group=\"Counters\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Cím\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Alcím\" name=\"showSubtitle\">\n\n        <input type=\"checkbox\" title=\"Blokk címe\" name=\"showTitles\" checked>\n        <input type=\"checkbox\" title=\"Szöveg\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Ikonok\" name=\"showIcons\">\n\n        <select title=\"Kártyák száma\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\" selected>3</option>\n           <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Háttérkép\" value=\"@PROJECT_PATH@/assets/images/02.jpg\">\n            <input type=\"color\" title=\"Háttérszín\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Háttérvideó\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Fedés\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Fedőszín\" name=\"overlayColor\" value=\"#b2ccd2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Átlátszóság\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Sportolda minitorna 2019.01.20.</h2>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            A Mobirise egy gyönyörű webszerkesztő\n        </h3>\n\n        <div class=\"container pt-4 mt-2\">\n            <div class=\"media-container-row\">\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-mobirise mbr-iconfont\"></span>\n                        </div>\n\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  100\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                Résztvevő csapatok</h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Pécsi Sportolda<br>PVSK<br>Astra Siklós</p>\n                        </div>\n                    </div>\n                </div>\n\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>1\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-touch-swipe mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  200\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                Mérkőzések eredményei</h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\"><p>\n                                    Sportolda - PVSK&nbsp; &nbsp; 1-0<br></p><p>Gsz.: Krisztián Petra<br><br>Astra Siklós - Sportolda&nbsp; &nbsp; 0-1</p>Gsz.: Czakó Zoé<br><p><span style=\"font-size: 1rem;\"><br></span></p><p><span style=\"font-size: 1rem;\">Astra Siklós - PVSK</span><span style=\"font-size: 1rem;\">&nbsp; &nbsp; 3-0</span><br></p><br><p><span style=\"font-size: 1rem;\">PVSK - Sportolda</span>&nbsp; &nbsp; 0-0</p><p><span style=\"font-size: 1rem;\">Sportolda - Astra Siklós</span>&nbsp; &nbsp; 2-0</p><p><span style=\"font-size: 1rem;\">Gsz.: Keibl Luca, Bircsák Karina</span></p><p><span style=\"font-size: 1rem;\"><br></span></p><p><span style=\"font-size: 1rem;\">PVSK - Astra Siklós</span>&nbsp; &nbsp; 0-1<span style=\"font-size: 1rem;\"><br></span><br></p><p><br><br><br><br></p></p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>2\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-responsive mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  300\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                Helyezések</h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\"><p>\n                                    1. Sportolda&nbsp; &nbsp; 10p</p><p>2. Astra Siklós&nbsp;&nbsp;&nbsp;&nbsp;6p</p><p><span style=\"font-size: 1rem;\">3. PVSK </span>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1rem;\">1p&nbsp;</span></p></p>\n                        </div>\n                    </div>\n                </div>\n\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>3\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-hot-cup mbr-iconfont\"></span>\n                        </div>\n\n                        <div class=\"card-texts\">\n                             <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  400\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">\n                                Webes betűkészletek\n                            </h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">\n                                    A Google a betűkészletek rendkívül széles kínálatát építette be web font platformjába, melyet a Mobirise segítségével könnyen és ingyen használhatsz weboldalaidon.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n   </div>\n</section>",
+          "_customHTML": "<section class=\"counters1 counters\" group=\"Counters\" plugins=\"ViewportChecker\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Felső térköz\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Alsó térköz\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Cím\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Alcím\" name=\"showSubtitle\">\n\n        <input type=\"checkbox\" title=\"Blokk címe\" name=\"showTitles\" checked>\n        <input type=\"checkbox\" title=\"Szöveg\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Ikonok\" name=\"showIcons\">\n\n        <select title=\"Kártyák száma\" name=\"cardsAmount\">\n           <option value=\"1\">1</option>\n           <option value=\"2\">2</option>\n           <option value=\"3\" selected>3</option>\n           <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Háttérkép\" value=\"@PROJECT_PATH@/assets/images/02.jpg\">\n            <input type=\"color\" title=\"Háttérszín\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Háttérvideó\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Fedés\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Fedőszín\" name=\"overlayColor\" value=\"#b2ccd2\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Átlátszóság\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Sportolda minitorna 2019.01.20.</h2>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            A Mobirise egy gyönyörű webszerkesztő\n        </h3>\n\n        <div class=\"container pt-4 mt-2\">\n            <div class=\"media-container-row\">\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-mobirise mbr-iconfont\"></span>\n                        </div>\n\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  100\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                Résztvevő csapatok</h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">Pécsi Sportolda<br>PVSK<br>Astra Siklós</p>\n                        </div>\n                    </div>\n                </div>\n\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>1\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-touch-swipe mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  200\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                Mérkőzések eredményei</h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\"></p><p>\n                                    Sportolda - PVSK&nbsp; &nbsp; 1-0<br></p><p>Gsz.: Krisztián Petra<br><br>Astra Siklós - Sportolda&nbsp; &nbsp; 0-1</p>Gsz.: Czakó Zoé<br><p><span style=\"font-size: 1rem;\"><br></span></p><p><span style=\"font-size: 1rem;\">Astra Siklós - PVSK</span><span style=\"font-size: 1rem;\">&nbsp; &nbsp; 3-0</span><br></p><br><p><span style=\"font-size: 1rem;\">PVSK - Sportolda</span>&nbsp; &nbsp; 0-0</p><p><span style=\"font-size: 1rem;\">Sportolda - Astra Siklós</span>&nbsp; &nbsp; 2-0</p><p><span style=\"font-size: 1rem;\">Gsz.: Keibl Luca, Bircsák Karina</span></p><p><span style=\"font-size: 1rem;\"><br></span></p><p><span style=\"font-size: 1rem;\">PVSK - Astra Siklós</span>&nbsp; &nbsp; 0-1<span style=\"font-size: 1rem;\"><br></span><br></p><p><br><br><br><br></p><p></p>\n                        </div>\n                    </div>\n                </div>\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>2\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-responsive mbr-iconfont\"></span>\n                        </div>\n                        <div class=\"card-text\">\n                            <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  300\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitles\">\n                                Helyezések</h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\"></p><p>\n                                    1. Sportolda&nbsp; &nbsp; 10p</p><p>2. Astra Siklós&nbsp;&nbsp;&nbsp;&nbsp;6p</p><p><span style=\"font-size: 1rem;\">3. PVSK </span>&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"font-size: 1rem;\">1p&nbsp;</span></p><p></p>\n                        </div>\n                    </div>\n                </div>\n\n\n                <div class=\"card p-3 align-center col-12 col-md-6\" mbr-if=\"cardsAmount>3\" mbr-class=\"{'col-lg-3': cardsAmount == '4','col-lg-4': cardsAmount == '3'}\">\n                    <div class=\"panel-item p-3\">\n                        <div class=\"card-img pb-3\" mbr-if=\"showIcons\">\n                            <span mbr-icon class=\"mbri-hot-cup mbr-iconfont\"></span>\n                        </div>\n\n                        <div class=\"card-texts\">\n                             <h3 class=\"count pt-3 pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                                  400\n                            </h3>\n                            <h4 class=\"mbr-content-title mbr-bold mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitles\">\n                                Webes betűkészletek\n                            </h4>\n                            <p class=\"mbr-content-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-content-text\">\n                                    A Google a betűkészletek rendkívül széles kínálatát építette be web font platformjába, melyet a Mobirise segítségével könnyen és ingyen használhatsz weboldalaidon.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n   </div>\n</section>",
           "_anchor": "counters1-7",
           "_isUserblock": true,
           "_sourceTheme": "mobirise4",
@@ -5489,8 +5606,25 @@
             "slides__showBullets": true,
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/img-20190216-125935-149-1885x1885.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dunaujvarostorna-960x795.jpg",
                 "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "customStyle1": "display-2",
+                "customStyle2": "display-5",
+                "customStyle3": "display-4",
+                "title": "NB1-es teremtornán 2.hely!",
+                "overlay": true,
+                "contentAlign": "right",
+                "text": "Vereség és kapott gól nélkül hoztuk le a tornát!",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"teremtornak.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Tudj meg többet!</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/img-20190216-125935-149-1885x1885.jpg",
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -5539,23 +5673,6 @@
                 "text": "Fordulatos mérkőzésen sikerült megszereznünk a győzelmet Czakó Zoé, Bircsák Karina és Kőmíves Amira találataival!",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"edzomeccsek.html\" data-toolbar=\"-mbrBtnMove\">Tudj meg többet!</a> ",
                 "overlayOpacity": "0.5"
-              },
-              {
-                "image": "@PROJECT_PATH@/assets/images/ez-1532x792.png",
-                "active": false,
-                "showButtons": true,
-                "showText": true,
-                "showTitle": true,
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "customStyle1": "display-2",
-                "customStyle2": "display-5",
-                "customStyle3": "display-4",
-                "title": "Öt játékosunk kapott meghívót Magyarország déli régió válogatottjának bővített keretébe!",
-                "overlay": true,
-                "contentAlign": "right",
-                "text": "Közel 100 lány közül 20 lesz az, aki képviselheti Telkiben Dél-Magyarországot!",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-success\" data-app-placeholder=\"Type Text\" href=\"https://www.facebook.com/pecsisportolda/posts/1995213350546791?__xts__[0]=68.ARCqiLwIbnDEKAs45MJ52lzlrwDWrZ4MQfPQYAL6WtEMkhNxSmFmZkPLrCejCsLbGSb17iwtRfYjHVi1AG9agoNggF5MU0iETuJzOjGwrPiO4m7SpIcsJlJp7LXiW8Hs5XtABcyd0E7_VE8_uigBEUIFN3P4tFldMubjkDRNw30HAaFOd3YgEku5mALvKoTB8D3NobGKECY_yLXhwi4OzNOP7jCCdj2Cpigc0DU4XdA0nLq1lZnO6Q3KNcS7dRRtLkwk54M-aXQ2OaHsh4EDhGK_gFGWO2vowZ9tq_74sJ7wxiSFyZE58gBO5iErKn9U4RwWSuIvy5taQipWb9xcN1CIEw&amp;__tn__=-R\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Tudj meg többet!</a> "
               }
             ]
           }
