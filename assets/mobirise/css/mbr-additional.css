@@ -4006,70 +4006,56 @@ body {
   padding-bottom: 30px;
   background-color: #2e2e2e;
 }
-.cid-rmEBBbCWsm {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #f9f9f9;
+.cid-ronLAErfDh {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #efefef;
 }
-.cid-rmEBBbCWsm h2 {
-  text-align: left;
+.cid-ronLAErfDh .line {
+  background-color: #ffffff;
+  color: #ffffff;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
 }
-.cid-rmEBBbCWsm h4 {
-  text-align: left;
-  font-weight: 500;
-}
-.cid-rmEBBbCWsm p {
-  color: #767676;
-  text-align: left;
-}
-.cid-rmEBBbCWsm .aside-content {
-  flex-basis: 100%;
-  -webkit-flex-basis: 100%;
-}
-.cid-rmEBBbCWsm .block-content {
-  display: -webkit-flex;
-  flex-direction: column;
-  -webkit-flex-direction: column;
-  word-break: break-word;
-}
-.cid-rmEBBbCWsm .media {
-  margin: initial;
-  align-items: center;
-  -webkit-align-items: center;
-}
-.cid-rmEBBbCWsm .mbr-figure {
-  align-self: flex-start;
-  -webkit-align-self: flex-start;
-  -webkit-flex-shrink: 0;
-  flex-shrink: 0;
-}
-.cid-rmEBBbCWsm .card-img {
-  padding-right: 2rem;
-  width: auto;
-}
-.cid-rmEBBbCWsm .card-img span {
-  font-size: 72px;
-  color: #707070;
-}
-@media (min-width: 992px) {
-  .cid-rmEBBbCWsm .mbr-figure {
-    padding-right: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rmEBBbCWsm .mbr-figure {
-    padding-right: 0;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
-  }
-}
-@media (max-width: 300px) {
-  .cid-rmEBBbCWsm .card-img span {
-    font-size: 40px !important;
-  }
-}
-.cid-rmEBBbCWsm B {
+.cid-ronLAErfDh .section-text {
+  padding: 2rem 0;
   color: #ff3366;
+}
+.cid-ronLAErfDh .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-ronLAErfDh .inner-container {
+    width: 100% !important;
+  }
+}
+.cid-ronL4RSOXv {
+  background: #ffffff;
+}
+.cid-ronL4RSOXv .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-ronL4RSOXv .mbr-figure {
+  margin: 0 auto;
+}
+.cid-ronL4RSOXv figcaption {
+  position: relative;
+}
+.cid-ronL4RSOXv figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-ronL4RSOXv .image-block {
+    width: 100% !important;
+  }
+}
+.cid-ronL4RSOXv DIV {
+  color: #ff3366;
+  text-align: left;
 }
 .cid-ripJh2sEXS {
   padding-top: 90px;
